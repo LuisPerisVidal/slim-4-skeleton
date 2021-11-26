@@ -1,0 +1,15 @@
+#### ADD NEW USER
+POST http://miapi.local/v1/users/new
+Content-type: application/json
+
+	{
+		"name" : "Ana"
+	}
+
+#### DELETE USER
+POST http://miapi.local/v1/users/delete
+Content-type: application/json
+
+	{
+		"name": "Carla"
+	}

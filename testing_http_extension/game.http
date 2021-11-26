@@ -1,0 +1,26 @@
+#### CREATE NEW GAME
+POST http://miapi.local/v1/game/new
+Content-type: application/json
+
+	{
+		"name" : "Ana"
+	}
+
+#### JOIN GAME
+POST http://miapi.local/v1/game/join_game
+Content-type: application/json
+
+	{
+		"name": "Carla"
+	}
+
+
+#### MOVE
+POST http://miapi.local/v1/game/move
+Content-type: application/json
+
+	{
+		"name": "Ana",
+		"square": "C1"
+	}
+
